@@ -20,7 +20,7 @@ function Calculation() {
     `;
 }
 
-// Multiply the first number starting by 1 until i is equal to second number
+// Multiply the first number starting from 1 until i is equal to second number
 function Looping() {    
     const firstNumber = parseFloat(document.getElementById('userInput').value);
     const secondNumber = parseFloat(document.getElementById('userInput2').value);
