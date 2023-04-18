@@ -1,6 +1,6 @@
 const submitButton = document.getElementById('submitButton');
 
-// basic calculation using addition, subtraction, multiplication, and division
+// Basic calculation using addition, subtraction, multiplication, and division
 function Calculation() {
     const firstNumber = parseFloat(document.getElementById('userInput').value);
     const secondNumber = parseFloat(document.getElementById('userInput2').value);
@@ -20,7 +20,7 @@ function Calculation() {
     `;
 }
 
-// Loop the first number starting by 1 until i is equal to second number
+// Multiply the first number starting by 1 until i is equal to second number
 function Looping() {    
     const firstNumber = parseFloat(document.getElementById('userInput').value);
     const secondNumber = parseFloat(document.getElementById('userInput2').value);
